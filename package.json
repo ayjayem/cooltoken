@@ -1,0 +1,30 @@
+{
+	"name": "poli-token-sale",
+	"version": "1.0.0",
+	"description": "PoliToken Sale ICO",
+	"main": "truffle.js",
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"dev": "lite-server",
+		"bridge": "./node_modules/.bin/ethereum-bridge -a 9 -H 127.0.0.1 -p 7545 --dev"
+	},
+	"author": "Alex",
+	"license": "ISC",
+	"devDependencies": {
+		"lite-server": "^2.5.4"
+	},
+	"dependencies": {
+		"@makerdao/dai": "^0.31.4",
+		"@truffle/contract": "^4.2.7",
+		"@truffle/hdwallet-provider": "^1.0.35",
+		"chart.js": "^2.9.3",
+		"ethereum-bridge": "^0.6.2",
+		"micromodal": "^0.4.6",
+		"tippy.js": "^6.2.3",
+		"truffle": "^5.1.26",
+		"web3-utils": "^1.2.8",
+		"xmlhttprequest": "^1.8.0"
+	}
+}
