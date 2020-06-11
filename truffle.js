@@ -87,8 +87,17 @@ module.exports = {
         return new HDWalletProvider(mnemonic, "https://ropsten.infura.io/v3/13cf27f96d2445148bc5ecd8e960a5e7");
       },
       network_id: '3',
-      gasPrice: 50000000000,
-      gas: 4000000
+      gasPrice: 28000000000,
+      gas: 5000000
+    },
+
+    main: {
+      provider: function() {
+        return new HDWalletProvider(mnemonic, "https://mainnet.infura.io/v3/13cf27f96d2445148bc5ecd8e960a5e7");
+      },
+      network_id: '1',
+      gasPrice: 28000000000,
+      gas: 5000000
     }
 
     // Useful for private networks
