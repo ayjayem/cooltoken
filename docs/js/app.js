@@ -8,26 +8,10 @@ const MicroModal = require('micromodal');
 //const tippyCSS = require('tippy.js/dist/tippy.css');
 //const material = require('tippy.js/themes/material.css');
 
-/* --- TO DO --- ***
-
-I. Prepare smart contract code to face the public
-
-1. Link to Github from front end, in the 2 places noted
-2. 
-
-II. Deploy on mainnet
-
-II. Prepare supporting material for inclusion on the site
-
-1. Write whitepaper to link to
-2. Uncomment link to whitepaper, and update link on main page of front end
-
-*/
-
-
 App = {
 
-	daiAddress: "0x2D69aD895797C880abce92437788047BA0Eb7fF6", // on ropsten
+	//daiAddress: "0x2D69aD895797C880abce92437788047BA0Eb7fF6", // on ropsten
+	daiAddress: "0x6b175474e89094c44da98b954eedeac495271d0f", // on mainnet
 	web3Provider: null,
 	contracts: {},
 	account: "0x0",

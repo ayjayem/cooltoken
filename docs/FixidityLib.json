@@ -19691,11 +19691,17 @@
     "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
   },
   "networks": {
+    "1": {
+      "events": {},
+      "links": {},
+      "address": "0xb18c7A45e983De9dEAAF7f276A85E541b443Df7b",
+      "transactionHash": "0xccbb8e0b775224a7ab9a109e555475ca25b5133e76020899486a405e58791f8b"
+    },
     "3": {
       "events": {},
       "links": {},
-      "address": "0x06174E519879C89EB1Dd1aF817E953AAc1994874",
-      "transactionHash": "0x9e82dfce947a7d92e8a2b6059f8ecadb647ebfc47cf3b2545b35af48c106c3f6"
+      "address": "0x4c0401A886fcADC55AEb98912AF4C55b5616B1eE",
+      "transactionHash": "0x025926f540f72e07794ed78c20b54bc8a86afa08991f60dbf97e08b9183b1556"
     },
     "1590245549975": {
       "events": {},
@@ -19705,7 +19711,7 @@
     }
   },
   "schemaVersion": "3.1.0",
-  "updatedAt": "2020-06-09T03:42:33.754Z",
+  "updatedAt": "2020-06-11T03:15:36.444Z",
   "networkType": "ethereum",
   "devdoc": {
     "author": "Gadi Guy, Alberto Cuesta Canada",
