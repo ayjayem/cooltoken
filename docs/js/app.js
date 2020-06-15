@@ -12,9 +12,11 @@ App = {
 
 	//daiAddress: "0x2D69aD895797C880abce92437788047BA0Eb7fF6", // on ropsten
 	daiAddress: "0x6b175474e89094c44da98b954eedeac495271d0f", // on mainnet
+	admin: "0xaDEB351E3927a785193557f1630148d6091Dc89A",
 	web3Provider: null,
 	contracts: {},
 	account: "0x0",
+	adminBalance: 0,
 	poliBalance: 0,
 	daiBalance: 0,
 	loading: false,
@@ -150,6 +152,9 @@ App = {
 			// load token contract
 			App.contracts.PoliToken.deployed().then(function(instance) {
 				poliTokenInstance = instance;
+				return poliTokenInstance.balanceOf(App.admin);
+			}).then(function(balance) {
+				App.adminBalance = balance;
 				return poliTokenInstance.balanceOf(App.account);
 			}).then(function(balance) {
 				App.poliBalance = balance;

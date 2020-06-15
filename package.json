@@ -24,6 +24,7 @@
 		"micromodal": "^0.4.6",
 		"tippy.js": "^6.2.3",
 		"truffle": "^5.1.26",
+		"truffle-plugin-verify": "^0.3.11",
 		"web3-utils": "^1.2.8",
 		"xmlhttprequest": "^1.8.0"
 	}

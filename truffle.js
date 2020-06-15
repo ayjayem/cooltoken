@@ -108,6 +108,14 @@ module.exports = {
     // }
   },
 
+  plugins: [
+    'truffle-plugin-verify'
+  ],
+
+  api_keys: {
+    etherscan: 'FZ6QA5JDRA9CTQAYSU9JDBFJ68ECBU721K'
+  },
+
   // Set default mocha options here, use special reporters etc.
   mocha: {
     // timeout: 100000
